@@ -47,9 +47,11 @@ th {
 }
 
 .thumbnail>img {
-    width: 100px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .prod-img>img {
-    width: 100px;
+    max-width: 80px;
+    max-height: 80px;
 }
