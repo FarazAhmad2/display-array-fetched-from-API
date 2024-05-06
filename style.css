@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+#fetch-data-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(88, 186, 243);
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.6s ease-in-out 0.3s;
+}
+
+#fetch-data-btn:hover {
+    opacity: 0.7;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px;
+}
+
+table {
+    margin: 20px;
+    min-width: 800px;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: justify;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+.thumbnail>img {
+    width: 100px;
+}
+
+.prod-img>img {
+    width: 100px;
+}
